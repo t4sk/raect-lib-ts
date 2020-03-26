@@ -13,6 +13,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "t4sk.react-lib-ts/transducer@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/lib/transducer.ts",
+                "test": false,
+                "name": "transducer.ts"
+            }
+        ],
+        "mainFile": "src/lib/transducer.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "t4sk.react-lib-ts/util@0.0.1": {
         "files": [
             {
