@@ -13,5 +13,17 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "t4sk.react-lib-ts/util@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/lib/util.ts",
+                "test": false,
+                "name": "util.ts"
+            }
+        ],
+        "mainFile": "src/lib/util.ts",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "version": "14.7.6"
 }
