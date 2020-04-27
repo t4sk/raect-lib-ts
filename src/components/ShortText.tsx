@@ -5,7 +5,7 @@ interface Props {
   text: string;
 }
 
-const ShortText: React.FC<Props> = ({ width = 100, text }) => {
+export const ShortText: React.FC<Props> = ({ width = 100, text }) => {
   return (
     <div
       style={{

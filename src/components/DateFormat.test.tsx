@@ -1,10 +1,10 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import DateFormat from "./DateFormat";
+import { DateFormat } from "./DateFormat";
 
 const props = {
   date: "2019-07-31T03:08:44.033Z",
-  timeZone: "Asia/Tokyo"
+  timeZone: "Asia/Tokyo",
 };
 
 test("renders foo", () => {
