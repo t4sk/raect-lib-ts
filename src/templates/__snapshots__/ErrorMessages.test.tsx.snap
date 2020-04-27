@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`many errors 1`] = `
+<div>
+  <div
+    class="ui error message fade down visible transition"
+  >
+    <div
+      class="content"
+    >
+      <ul
+        class="list"
+      >
+        <li
+          class="content"
+        >
+          error 1
+        </li>
+        <li
+          class="content"
+        >
+          error 2
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`no error 1`] = `<div />`;
+
+exports[`one error 1`] = `
+<div>
+  <div
+    class="ui error message fade down visible transition"
+  >
+    error
+  </div>
+</div>
+`;
