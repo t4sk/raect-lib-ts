@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error 1`] = `
+<div>
+  <div
+    class="ui negative message"
+  >
+    <p>
+      error
+    </p>
+    <button
+      class="ui button"
+    >
+      Retry
+    </button>
+  </div>
+</div>
+`;
+
+exports[`it renders 1`] = `<div />`;
+
+exports[`loading 1`] = `
+<div>
+  <div>
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`render error 1`] = `
+<div>
+  <div>
+    render 
+    error
+  </div>
+</div>
+`;
+
+exports[`render loading 1`] = `
+<div>
+  <div>
+    render loading
+  </div>
+</div>
+`;
