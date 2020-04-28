@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders 1`] = `
+<div>
+  <div
+    class="component"
+  >
+    <button
+      class="ui mini basic button"
+    >
+      First
+    </button>
+    <button
+      class="ui mini basic icon button"
+      data-testid="prev"
+    >
+      <i
+        aria-hidden="true"
+        class="chevron left icon"
+      />
+    </button>
+    <div
+      class="ui basic label"
+    >
+      <div>
+        41
+        -
+        60
+         of
+         
+        100
+      </div>
+    </div>
+    <button
+      class="ui mini basic icon button"
+      data-testid="next"
+    >
+      <i
+        aria-hidden="true"
+        class="chevron right icon"
+      />
+    </button>
+    <button
+      class="ui mini basic button"
+    >
+      Last
+    </button>
+  </div>
+</div>
+`;
+
+exports[`render first page 1`] = `
+<div>
+  <div
+    class="component"
+  >
+    <button
+      class="ui mini basic disabled button"
+      disabled=""
+      tabindex="-1"
+    >
+      First
+    </button>
+    <button
+      class="ui mini basic icon disabled button"
+      data-testid="prev"
+      disabled=""
+      tabindex="-1"
+    >
+      <i
+        aria-hidden="true"
+        class="chevron left icon"
+      />
+    </button>
+    <div
+      class="ui basic label"
+    >
+      <div>
+        1
+        -
+        20
+         of
+         
+        100
+      </div>
+    </div>
+    <button
+      class="ui mini basic icon button"
+      data-testid="next"
+    >
+      <i
+        aria-hidden="true"
+        class="chevron right icon"
+      />
+    </button>
+    <button
+      class="ui mini basic button"
+    >
+      Last
+    </button>
+  </div>
+</div>
+`;
+
+exports[`render last page 1`] = `
+<div>
+  <div
+    class="component"
+  >
+    <button
+      class="ui mini basic button"
+    >
+      First
+    </button>
+    <button
+      class="ui mini basic icon button"
+      data-testid="prev"
+    >
+      <i
+        aria-hidden="true"
+        class="chevron left icon"
+      />
+    </button>
+    <div
+      class="ui basic label"
+    >
+      <div>
+        81
+        -
+        100
+         of
+         
+        100
+      </div>
+    </div>
+    <button
+      class="ui mini basic icon disabled button"
+      data-testid="next"
+      disabled=""
+      tabindex="-1"
+    >
+      <i
+        aria-hidden="true"
+        class="chevron right icon"
+      />
+    </button>
+    <button
+      class="ui mini basic disabled button"
+      disabled=""
+      tabindex="-1"
+    >
+      Last
+    </button>
+  </div>
+</div>
+`;
