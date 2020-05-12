@@ -49,6 +49,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "t4sk.react-lib-ts/use-async@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/hooks/useAsync.tsx",
+                "test": false,
+                "name": "useAsync.tsx"
+            }
+        ],
+        "mainFile": "src/hooks/useAsync.tsx",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "t4sk.react-lib-ts/util@0.0.1": {
         "files": [
             {
