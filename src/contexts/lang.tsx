@@ -1,6 +1,6 @@
 import React, { useState, createContext, useContext, useMemo } from "react";
 
-const DEFAULT_LANG = "en";
+const DEFAULT_LANG: string = "en";
 
 const LangContext = createContext({
   state: DEFAULT_LANG,
