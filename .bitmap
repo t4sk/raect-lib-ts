@@ -25,6 +25,30 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "t4sk.react-lib-ts/lang@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/contexts/lang.tsx",
+                "test": false,
+                "name": "lang.tsx"
+            }
+        ],
+        "mainFile": "src/contexts/lang.tsx",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "t4sk.react-lib-ts/short-text@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/ShortText.tsx",
+                "test": false,
+                "name": "ShortText.tsx"
+            }
+        ],
+        "mainFile": "src/components/ShortText.tsx",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "t4sk.react-lib-ts/test-bit-type-script@0.1.0": {
         "files": [
             {
@@ -49,7 +73,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "t4sk.react-lib-ts/use-async@0.0.1": {
+    "t4sk.react-lib-ts/use-async@0.0.4": {
         "files": [
             {
                 "relativePath": "src/hooks/useAsync.tsx",
@@ -73,5 +97,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "version": "14.7.6"
+    "version": "14.8.8"
 }

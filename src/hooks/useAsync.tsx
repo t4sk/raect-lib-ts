@@ -1,35 +1,35 @@
 import { useState } from "react";
 
-interface State<Response> {
+interface State<Data> {
   nonce: number;
   pending: boolean;
   error: Error | null;
-  data: Response | null;
+  data: Data | null;
 }
 
-interface Run<Response> {
-  data?: Response;
+interface Response<Data> {
+  data?: Data;
   error?: Error;
 }
 
-interface UseAsync<Params, Response> extends State<Response> {
-  run: (params: Params) => Promise<Run<Response>>;
+interface UseAsync<Params, Data> extends State<Data> {
+  run: (params: Params) => Promise<Response<Data>>;
   reset: () => void;
 }
 
-function useAsync<Params, Response>(
-  req: (params: Params) => Promise<Response>
-): UseAsync<Params, Response> {
-  const INITIAL_STATE: State<Response> = {
+function useAsync<Params, Data>(
+  req: (params: Params) => Promise<Data>
+): UseAsync<Params, Data> {
+  const INITIAL_STATE: State<Data> = {
     nonce: 0,
     pending: false,
     error: null,
     data: null,
   };
 
-  const [state, setState] = useState<State<Response>>(INITIAL_STATE);
+  const [state, setState] = useState<State<Data>>(INITIAL_STATE);
 
-  async function run(params: Params): Promise<Run<Response>> {
+  async function run(params: Params): Promise<Response<Data>> {
     setState((state) => ({
       ...state,
       nonce: state.nonce + 1,
