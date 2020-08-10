@@ -1,5 +1,10 @@
 import React from "react";
-import moment from "moment-timezone";
+/*
+Hack to fix error:
+Cannot redeclare block-scoped variable 'tz
+*/
+import * as moment from "moment";
+import "moment-timezone";
 
 const DEFAULT_FORMAT = "YYYY-MM-DD HH:mm";
 
