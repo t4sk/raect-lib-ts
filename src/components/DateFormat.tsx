@@ -14,6 +14,8 @@ export interface Props {
   format?: string;
 }
 
+// trigger bit rebuild
+
 export function DateFormat(props: Props) {
   const { date, timeZone, format = DEFAULT_FORMAT } = props;
 
