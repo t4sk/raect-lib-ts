@@ -25,6 +25,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "t4sk.react-lib-ts/div-size@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/contexts/DivSize.tsx",
+                "test": false,
+                "name": "DivSize.tsx"
+            }
+        ],
+        "mainFile": "src/contexts/DivSize.tsx",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "t4sk.react-lib-ts/form@0.0.3": {
         "files": [
             {
