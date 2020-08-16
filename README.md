@@ -7,4 +7,5 @@ bit build
 bit tag --all
 bit tag my-component x.y.z
 bit export t4sk.react-lib-ts
+bit remove t4sk.react-lib-ts/div-size --remote
 ```
